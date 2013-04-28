@@ -1,0 +1,6 @@
+*.project
+*.cfg
+*.properties
+*.prefs
+*.classpath
+*.class

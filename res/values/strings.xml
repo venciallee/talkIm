@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TalkIMActivity!</string>
+    <string name="app_name">TalkIM</string>
+    <string name="talkIm">talkIm</string>
+    <string name="photo">photo</string>
+    <string name="nickname">nickname</string>
+    <string name="password">password</string>
+    <string name="sex">sex</string>
+    <string name="whatsup">whats up</string>
+    <string name="college">college</string>
+    <string name="city">city</string>
+</resources>

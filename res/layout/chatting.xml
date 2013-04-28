@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <include layout="@layout/top_title"/>
+	
+	<ListView android:id="@+id/chatingContent"
+	    	  android:layout_width="fill_parent"
+	    	  android:layout_height="fill_parent"
+	    	  android:layout_below="@+id/talkImTop"
+	    	  android:layout_above="@id/talkImChoiceBtn"
+	    	  android:divider="@null"
+    		  android:dividerHeight="5dp"
+    		  android:stackFromBottom="true"
+    		  android:scrollbarStyle="outsideOverlay"
+    		  android:background="#ffffffff"
+    		  android:cacheColorHint="#0000">
+	    
+	</ListView>
+    
+    <include layout="@layout/buttom_buttons_bg"/>
+    
+    <RelativeLayout android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:layout_alignParentBottom="true"
+			    	android:layout_below="@id/chatingContent"
+			    	android:gravity="center"
+			    	>
+			    <EditText android:id="@+id/chat_edit_text"
+			    		  android:layout_width="wrap_content"
+			    		  android:layout_height="wrap_content"
+			    		  android:background="@drawable/send_text_area"
+			    		  android:layout_alignParentBottom="true"
+			    		  android:layout_centerHorizontal="true"
+			    		  android:maxLines="2"
+			    		  android:maxWidth="25dp"
+			    		  android:focusable="true"
+			    		  android:padding="5dp"
+			    		  android:inputType="text"
+			    		  android:layout_marginRight="25dp"/>
+	</RelativeLayout>
+	
+    <RelativeLayout android:id="@+id/send_btn_layout"
+       	 			android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:layout_alignParentBottom="true"
+			    	android:gravity="right"
+        			>
+        	<LinearLayout android:id="@+id/bg_layout"
+			      			  android:layout_width="wrap_content"
+							  android:layout_height="wrap_content"
+							  android:layout_alignParentBottom="true"
+							  android:layout_alignParentRight="true"
+							  android:gravity="right">
+			    			<ImageView android:id="@+id/selected_bg_view"
+			  						   android:layout_width="wrap_content"
+			  						   android:layout_height="wrap_content"
+			  						   android:src="@drawable/selecticon"
+			  						   />
+			    </LinearLayout>
+			    <LinearLayout android:id="@+id/button_layout"
+			    			  android:layout_width="wrap_content"
+							  android:layout_height="wrap_content"
+							  android:layout_alignParentBottom="true"
+							  android:layout_alignParentRight="true"
+							  android:gravity="right">
+											<ImageButton android:id="@+id/send_button"
+				 					 	     		     android:layout_width="123px"
+				 					 	     		     android:layout_height="121px"
+				 					 	     		     android:layout_weight="1"
+				 					 	     		     android:focusable="true"
+				 					 	     		     android:background="#00000000"
+				 					 	     		     android:src="@drawable/send_font_btn"
+				 					 	     		     android:scaleType="center"
+	 					 	     		   				 />
+			</LinearLayout>
+    </RelativeLayout>
+    
+</RelativeLayout>

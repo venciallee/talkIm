@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="age_spinner_dialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item><!--边框-->
+		<item name="android:windowIsFloating">true</item><!--是否悬浮在activity上-->
+		<item name="android:windowIsTranslucent">false</item><!--是否半透明-->
+		<item name="android:backgroundDimEnabled">false</item><!--模糊-->
+	</style>
+
+</resources>

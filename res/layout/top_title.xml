@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+					android:id="@+id/talkImTop"
+					android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/top"
+	                android:layout_alignParentTop="true">
+	                <ImageView android:layout_width="wrap_content"
+	                		   android:layout_height="wrap_content"
+	                		   android:src="@drawable/talkimfont"
+	                		   android:layout_centerInParent="true"
+	                		   android:layout_centerVertical="true"
+	                		   android:contentDescription="@string/talkIm"
+	                		   />
+	               <ImageButton android:id="@+id/settingButton"
+	               		 		android:layout_width="wrap_content"
+	               			 	android:layout_height="wrap_content"
+	               			 	android:src="@drawable/settingicon"
+	               			 	android:layout_alignParentRight="true"
+	               			 	android:layout_centerVertical="true"
+	               			 	android:layout_marginRight="15dip"
+	               			 	android:background="#00000000"
+	               			 	android:contentDescription="@string/talkIm"/>
+	</RelativeLayout>
